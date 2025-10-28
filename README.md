@@ -8,6 +8,7 @@ Teniendo funciones como la planeacion de ruta de viaje, compartir el mismo, ver 
 
 - Python 3.x
 - Plyer
+- Firebase Admin
 
 ## Instalación
 
@@ -16,3 +17,9 @@ Teniendo funciones como la planeacion de ruta de viaje, compartir el mismo, ver 
 2. Instalá Plyer usando pip:
 
 Abriremos la consola (cmd) y tipearemos "pip install plyer"
+
+3. Instalá Firebase usando pip:
+
+    "     "     "      "    "      "    "pip install firebase-admin"
+
+
