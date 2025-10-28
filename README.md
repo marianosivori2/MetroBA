@@ -11,6 +11,8 @@ Teniendo funciones como la planeacion de ruta de viaje, compartir el mismo, ver 
 
 ## Instalación
 
-1. Instalá Plyer usando pip:
+1. Instalá Python 3
+
+2. Instalá Plyer usando pip:
 
 Abriremos la consola (cmd) y tipearemos "pip install plyer"
