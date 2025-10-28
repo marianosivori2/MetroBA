@@ -20,6 +20,6 @@ Abriremos la consola (cmd) y tipearemos "pip install plyer"
 
 3. Instalá Firebase usando pip:
 
-    "     "     "      "    "      "    "pip install firebase-admin"
+Abriremos la consola (cmd) y tipearemos  "pip install firebase-admin"
 
 
