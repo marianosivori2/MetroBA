@@ -30,6 +30,7 @@ Para cada ruta posible:
 }
 
 | Tipo de ruta | Estacioness                 | tiempo total  |observaciones                      |
+| -------------| ----------------------------| --------------|-----------------------------------|
 | Accesible    | Central → Belgrano → Norte` |    22 min     | Todas las estaciones con ascensor |
 | No accesible | Central → Rivadavia → Norte |    18 min     | Rivadavia sin rampa               |
 
