@@ -1,4 +1,4 @@
-Algoritmo de Rutas Accesibles
+*Algoritmo de Rutas Accesibles*
 Este documento describe la modificacion del algoritmo de cálculo de rutas para incluir filtros de accesibilidad, garantizando que las rutas generadas sean adecuadas para personas con movilidad reducida u otras necesidades específicas.
 
 Una ruta es accesible si tienen:
@@ -19,13 +19,9 @@ Para cada ruta posible:
 | Método | Endpoint                 | Parámetros                                  | Descripción                                    |
 | ------ | ------------------------ | ------------------------------------------- | ---------------------------------------------- |
 | `GET`  | `/rutas`                 | `origen`, `destino`, `accesible=true/false` | Devuelve rutas según el nivel de accesibilidad |
-| ------ | ------------------------ | ------------------------------------------- | ---------------------------------------------- |
 | `GET`  | `/estaciones/accesibles` | —                                           | Lista de estaciones accesibles                 |
-| ------ | ------------------------ | ------------------------------------------- | ---------------------------------------------- |
 | `POST` | `/rutas/filtrar`         | JSON con preferencias de accesibilidad      | Devuelve rutas personalizadas                  |
-| ------ | ------------------------ | ------------------------------------------- | ---------------------------------------------- |
 
-#ejemplo
 {
   "origen": "Estación Central",
   "destino": "Plaza Norte",
@@ -34,9 +30,7 @@ Para cada ruta posible:
 }
 
 | Tipo de ruta | Estacioness                 | tiempo total  |observaciones                      |
-| -------------| --------------------------- | --------------| ----------------------------------|
 | Accesible    | Central → Belgrano → Norte` |    22 min     | Todas las estaciones con ascensor |
-| -------------| ----------------------------| --------------|-----------------------------------|
 | No accesible | Central → Rivadavia → Norte |    18 min     | Rivadavia sin rampa               |
-| -------------| ----------------------------| --------------|-----------------------------------|
-La implementación de filtros de accesibilidad mejora la inclusión en el sistema de transporte, permitiendo generar rutas adaptadas a diferentes usuarios.
+
+*La implementación de filtros de accesibilidad mejora la inclusión en el sistema de transporte, permitiendo generar rutas adaptadas a diferentes usuarios.*
