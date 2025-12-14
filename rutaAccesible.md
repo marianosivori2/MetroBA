@@ -28,10 +28,3 @@ Para cada ruta posible:
   "ruta_accesible": true,
   "paradas": ["Central", "Belgrano", "Norte"]
 }
-
-| Tipo de ruta | Estacioness                 | tiempo total  |observaciones                      |
-| -------------| ----------------------------| --------------|-----------------------------------|
-| Accesible    | Central → Belgrano → Norte` |    22 min     | Todas las estaciones con ascensor |
-| No accesible | Central → Rivadavia → Norte |    18 min     | Rivadavia sin rampa               |
-
-*La implementación de filtros de accesibilidad mejora la inclusión en el sistema de transporte, permitiendo generar rutas adaptadas a diferentes usuarios.*
